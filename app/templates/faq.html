@@ -17,22 +17,9 @@
   </head>
   <body>
     <div class="container">
-      <div class="header clearfix">
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation"><a href="#" onclick="ipc.sendSync('openFAQ')">FAQ</a></li>
-            <li role="presentation"><a href="#" onclick="ipc.sendSync('openSettings')">Settings</a></li>
-          </ul>
-          <h3 class="text-muted">Pomodoro Timer</h3>
+      <div className="jumbotron">
+        <p><a href="#" onclick="ipc.sendSync('closeFAQ')">close window</a></p>
       </div>
-
-      <!-- The timer will live here -->
-      <div id="timer"></div>
-
-      <footer class="footer">
-          <p>Author: Tashi Gurung.</p>
-      </footer>
     </div>
-
-    <script src="../js/timer.js"></script>
   </body>
 </html>
