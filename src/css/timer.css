@@ -1,0 +1,10 @@
+/* Bootstrap styles*/
+@import url('../../node_modules/bootstrap/dist/css/bootstrap.css');
+
+/* Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+p#timerCountdown {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 70px;
+}
